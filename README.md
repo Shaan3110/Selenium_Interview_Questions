@@ -10,6 +10,7 @@
 
 ```mermaid
 graph LR
+SuperClass:SearchContext --> Interface:WebDriver
 Interface:WebDriver --> Class:RemoteWebDriver
 Class:RemoteWebDriver--> ExtendedClasses:ChromeDriver,FirefoxDriver,EdgeDriver
 ```
